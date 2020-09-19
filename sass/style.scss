@@ -1,0 +1,13 @@
+@import "navbar";
+@import "vars";
+@import "normalize";
+
+body,
+html {
+	background-color: $color-bg;
+}
+
+.Main__Container {
+    background-color: var(--color-secondary); height: 100vh;
+    @include BorderBox;
+}
